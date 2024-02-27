@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imAGges</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, section, footer {
+            padding: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        nav{
+                text-align: center;
+                width: 100%;
+                height: 50px;
+
+
+                
+            }
+            nav ul{
+                list-style: none;
+            }
+               
+            nav ul li{
+                display: inline-block;
+                padding-left: 20px;
+                height: 10%;
+            }
+
+    </style>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#menu">Menu</a></li>
+    </ul>
+</nav>
+
+<section id="home">
+    <h2>Welcome to our Technology Hub!</h2>
+    <p>Explore the latest innovations, trends, and news in the world of technology. From cutting-edge gadgets to insightful articles, we've got you covered. Click on the image below to dive into the exciting world of technology.</p>
+    <a href="https://www.microsoft.com/en-us/"><img src="images/3.jpg" alt="microsoft "></a>
+</section>
+
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <div class="grid-container">
+        <a href="https://www.nationalgeographic.com/animals/article/new-green-anaconda-species-discovered"><img src="images/5.avif" alt="The world’s heaviest snake has been hiding a big secret"></a>
+        <a href="https://www.nature.com/"><img src="images/6.webp" alt="Nature "></a>
+        <a href="https://www.nationalgeographic.com/photography/photo-of-the-day/"><img src="images/7.avif" alt="Did you know whales can sing underwater "></a>
+    </div>
+</section>
+
+<section id="menu">
+    <h2>Menu</h2>
+    <ul >
+        <li><a href="images/burger.jpg">burger</a> </li>
+        <li><a href="images/kuku.jpeg">kuku</a> </li>
+        <li><a href="images/wetfry.jpg">wetfry</a></li>
+      
+
+    </ul>
+</section>
+
+<footer>
+    <p>&copy; 2024 Multichoice </p>
+</footer>
+
+</body>
+</html>
